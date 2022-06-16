@@ -39,7 +39,7 @@ body {
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 7px;
+    border-radius: 15px;
     box-shadow: 0 5px 150px rgba(0,0,0,0.4);
     transition: 0.3s ease-in-out;
 }
@@ -54,12 +54,13 @@ body {
     height: 260px;
     top: -60px;
     z-index: 1;
+    border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
 
 .container .card .imgBx img {
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
  
 .container .card .content {
@@ -77,7 +78,7 @@ body {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
 }
 
 p a {
@@ -126,7 +127,7 @@ p a {
     z-index: -1;
     transform: translateY(-30vh) translateZ(1px);
     color:#fff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
 }
@@ -176,4 +177,11 @@ p a {
 .bt:hover {
     background: rgb(185, 185, 185);
     color:rgb(0, 0, 0);
+}
+
+.video-back {
+    position: fixed;
+    padding: 30px;
+    top: 0;
+    left: 0;
 }
