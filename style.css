@@ -3,19 +3,26 @@
     padding: 0;
 }
 
+html {
+    font-size:10px;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(39, 45, 54);
     font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2rem;
 }
 
 .heading {
     z-index: -1;
     transform: translateY(-30vh) translateZ(1px);
     color:#fff;
-    font-size: 30px;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
 }
 
 .container {
@@ -26,7 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 1.2rem;
     padding: 30px;
 }
 
@@ -97,7 +104,6 @@ p a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: 30px;
     letter-spacing: 1px;
 }
  
@@ -112,6 +118,7 @@ p a {
     text-align: center;
     height: 120vh;
     color: #fff;
+    font-size: 1.6rem;
     background-color: rgb(0, 0, 0);
     box-shadow: 2px 2px 200px rgb(0, 0, 0);
     padding: 200px;
@@ -123,20 +130,11 @@ p a {
     box-shadow: 2px 2px 200px rgb(0, 0, 0);
 }
 
-.heading {
-    z-index: -1;
-    transform: translateY(-30vh) translateZ(1px);
-    color:#fff;
-    font-size: 40px;
-    font-weight: bolder;
-    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
-}
-
 .cooperate {
     z-index: -1;
     transform: translateY(-20vh) translateZ(1px);
     color:#fff;
-    font-size: 15px;
+    font-size: 1.8rem;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
 }
 
@@ -151,6 +149,7 @@ p a {
     right: 50px;
     display: block;
     text-align: center;
+    font-size: 1.6rem;
     padding-top: 17px;
     box-sizing: border-box;
     text-decoration: none;
@@ -164,7 +163,7 @@ p a {
 .bt {
     border: 1px solid rgba(255, 255, 255, 0.7);
     color: rgba(255, 255, 255, 0.9);
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     width: 200px;
     padding-top: 12px;
